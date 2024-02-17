@@ -15,5 +15,12 @@ img {
   width: 200px;
 }
 .weather-app {
-  background: wheat;
+  background: rgb(247, 233, 208);
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 17px;
+}
+body {
+  font-family: "Urbanist", sans-serif;
 }
