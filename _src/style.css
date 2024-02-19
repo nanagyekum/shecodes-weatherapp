@@ -23,4 +23,13 @@ img {
 }
 body {
   font-family: "Urbanist", sans-serif;
+  background-color: burlywood;
+}
+.search-input {
+  background-color: rgb(255, 242, 242);
+  border: none;
+  border-radius: 7px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 17px;
 }
