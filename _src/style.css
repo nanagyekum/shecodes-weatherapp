@@ -85,8 +85,12 @@ main {
 .current-temperature-icon {
   font-size: 44px;
   margin-top: 22px;
+  width: 48px;
+  height: 48px;
+  line-height: 88px;
+  margin-left: 10px;
 }
 .current-temperature-unit {
-  margin-top: 16px;
+  margin-top: 10px;
   font-size: 28px;
 }
