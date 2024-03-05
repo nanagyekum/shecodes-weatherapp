@@ -3,6 +3,8 @@ img {
   margin: 20px auto;
   border-radius: 20px;
   display: block;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
 
 .current-city {
@@ -93,4 +95,18 @@ main {
 .current-temperature-unit {
   margin-top: 10px;
   font-size: 28px;
+}
+.weather-forecast {
+  margin-top: 30px;
+  color: #000;
+}
+.weather-date {
+  font: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-temp-min {
+  opacity: 0.6;
+}
+.weather-forecast-temp {
+  font-size: 13px;
 }
