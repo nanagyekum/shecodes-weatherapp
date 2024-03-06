@@ -38,6 +38,9 @@ footer {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 400;
 }
+a:hover {
+  color: white;
+}
 a {
   color: rgb(255, 186, 126);
 }
