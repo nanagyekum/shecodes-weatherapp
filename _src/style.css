@@ -100,8 +100,11 @@ main {
   font-size: 28px;
 }
 .weather-forecast {
-  margin-top: 30px;
+  margin-top: 20px;
+  text-align: center;
   color: #000;
+  display: inline-block;
+  margin-left: 50px;
 }
 .weather-date {
   font: 16px;
