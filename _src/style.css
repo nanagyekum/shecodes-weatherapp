@@ -104,7 +104,7 @@ main {
   text-align: center;
   color: #000;
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .weather-date {
   font: 16px;
@@ -114,5 +114,5 @@ main {
   opacity: 0.6;
 }
 .weather-forecast-temp {
-  font-size: 13px;
+  font-size: 11px;
 }
