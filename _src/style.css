@@ -87,6 +87,11 @@ main {
   font-weight: bold;
   margin-left: 10px;
 }
+.weather-icon {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
 .current-temperature-icon {
   font-size: 44px;
   margin-top: 22px;
@@ -100,15 +105,16 @@ main {
   font-size: 28px;
 }
 .weather-forecast {
-  margin-top: 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
   color: #000;
-  display: inline-block;
-  margin-left: 40px;
 }
 .weather-date {
   font: 16px;
   opacity: 0.6;
+  display: flex;
 }
 .weather-forecast-temp-min {
   opacity: 0.6;
