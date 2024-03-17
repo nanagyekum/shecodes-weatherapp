@@ -80,7 +80,7 @@ function displayForecast(response) {
         `
   <div class="weather-forecast">
         <div class="weather-date">${formatDay(day.time)}</div>
-        <div 
+        <div>
         <img src="${day.condition.icon_url}" class="weather-icon"/>
         </div>
         <div class="weather-forecast-temp">
@@ -105,4 +105,3 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Accra");
-displayForecast();
